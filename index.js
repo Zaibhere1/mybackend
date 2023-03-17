@@ -1,6 +1,6 @@
 const express = require("express");
 const mongoose = require("mongoose");
-const { findByIdAndDelete } = require("./models/user");
+
 const app = express();
 app.use(express.json());
 const User = require("./models/user");
